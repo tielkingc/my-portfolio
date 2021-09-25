@@ -34,8 +34,9 @@ export default function Contact() {
             to speaking with you!
           </p>
           <p className="leading-relaxed mb-5">
-            Send me a direct email at: <a href="mailto:tielking5@gmail.com" target="_blank" style={{ color: "white"}}>tielking5@gmail.com</a><br />
-            Or check out my <a href="https://www.linkedin.com/in/christian-tielking/" target="_blank" style={{ color: "white"}}>LinkedIn</a> Profile
+            Send me a direct email at: <a href="mailto:tielking5@gmail.com" target="_blank" style={{ color: "white" }}>tielking5@gmail.com</a><br />
+            Or check out my <a href="https://www.linkedin.com/in/christian-tielking/" target="_blank" style={{ color: "white" }}>LinkedIn</a> Profile<br />
+            You can also download my resume by clicking <a href="./Christian-Tielking.pdf" style={{ color: "white" }} download>here</a>!
           </p>
           <div className="relative mb-4">
             <label htmlFor="from_name" className="leading-7 text-sm text-gray-400">
