@@ -12,13 +12,14 @@ export default function Projects() {
             Apps I've Built
           </h1>
           <p className="lg:w-2/3 mx-auto leading-relaxed text-base">
-            Below are a few of the projects I built that I am really proud of!
+            Below are a few of the projects I have built that I am really proud of!
           </p>
         </div>
         <div className="flex flex-wrap -m-4">
           {projects.map((project) => (
             <a
               href={project.link}
+              target="_blank"
               key={project.image}
               className="sm:w-1/2 w-100 p-4">
               <div className="flex relative">
@@ -34,7 +35,10 @@ export default function Projects() {
                   <h1 className="title-font text-lg font-medium text-white mb-3">
                     {project.title}
                   </h1>
-                  <p className="leading-relaxed">{project.description}</p>
+                  <p className="leading-relaxed">{project.description}</p><br />
+                  <p className="leading-relaxed">
+                  <a href={project.repo} target="_blank" style={{ color: "white" }}>Repository Link</a>
+                  </p>
                 </div>
               </div>
             </a>

@@ -7,11 +7,15 @@ export default function About() {
         <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
           <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-white">
             Hi, I'm Christian.
-            <br className="hidden lg:inline-block" />I love to build amazing apps.
+            <br className="hidden lg:inline-block" />I love to build amazing websites.
           </h1>
           <p className="mb-8 leading-relaxed">
-            I love solving problems with coding. I recently graduated from a coding bootcamp and am ready to get started 
-            working in the industry.
+            Coding started out as a hobby I picked up in high school, but quickly became something I 
+            wanted to do as a career. I began studying in my freetime while working in a 
+            variety of IT positions ranging from help desk to computer repair. I've recently had the opportunity to 
+            complete a coding bootcamp through Butler University, and feel confident that I am ready to join the industry. 
+            I'm excited to work with other developers to create amazing websites and continue my education within the field.
+
           </p>
           <div className="flex justify-center">
             <a

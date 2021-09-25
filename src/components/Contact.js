@@ -30,7 +30,12 @@ export default function Contact() {
             Contact Me
           </h2>
           <p className="leading-relaxed mb-5">
-            Please feel free to reach out to better get to know me or ask me any questions!
+            Please feel free to reach out for any inquries or comments you may have. I look forward 
+            to speaking with you!
+          </p>
+          <p className="leading-relaxed mb-5">
+            Send me a direct email at: <a href="mailto:tielking5@gmail.com" target="_blank" style={{ color: "white"}}>tielking5@gmail.com</a><br />
+            Or check out my <a href="https://www.linkedin.com/in/christian-tielking/" target="_blank" style={{ color: "white"}}>LinkedIn</a> Profile
           </p>
           <div className="relative mb-4">
             <label htmlFor="from_name" className="leading-7 text-sm text-gray-400">
